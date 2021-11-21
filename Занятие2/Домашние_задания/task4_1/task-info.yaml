@@ -1,0 +1,22 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  text: |
+    if __name__ == "__main__":
+        pts = [
+            (3, 4),
+            (4.5, 3),
+            (2.1, -1),
+            (6.8, -3),
+            (1.4, 2.9)
+        ]
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+status: Solved
+feedback:
+  time: Sun, 21 Nov 2021 21:59:10 UTC
+record: -1
+post_submission_on_open: true

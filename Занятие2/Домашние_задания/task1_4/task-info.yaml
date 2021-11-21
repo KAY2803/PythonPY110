@@ -1,0 +1,26 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  text: |
+    def pairwise(iterable):
+        for i in range(len(iterable) - 1):
+            yield iterable[i], iterable[i+1]
+
+
+    def task():
+        for pair in pairwise("ABCDEFG"):
+            print(pair)
+
+
+    if __name__ == "__main__":
+        task()
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+status: Solved
+feedback:
+  time: Sun, 21 Nov 2021 21:57:58 UTC
+record: -1
+post_submission_on_open: true
