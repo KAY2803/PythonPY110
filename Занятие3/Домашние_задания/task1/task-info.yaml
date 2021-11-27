@@ -1,0 +1,35 @@
+type: output
+files:
+- name: tests/output.txt
+  visible: false
+  learner_created: false
+- name: main.py
+  visible: true
+  text: |
+    if __name__ == "__main__":
+        # Write your solution here
+        pass
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: file_1
+  visible: true
+  learner_created: true
+- name: file_2
+  visible: true
+  learner_created: true
+- name: file_3
+  visible: true
+  learner_created: true
+status: Failed
+feedback:
+  message: Incorrect
+  time: Sat, 27 Nov 2021 17:49:17 UTC
+  actual: |
+    ["2", "8", "3", "0", "4", "1", "6", "7", "5", "9"]
+
+    ["a", "h", "L", "O", "P", "c", "V", "y", "q", "G"]
+
+    ['"2"', '"8"', '"3"', '"0"', '"4"', '"1"', '"6"', '"7"', '"5"', '"9"', '"a"', '"h"', '"L"', '"O"', '"P"', '"c"', '"V"', '"y"', '"q"', '"G"']
+record: -1
