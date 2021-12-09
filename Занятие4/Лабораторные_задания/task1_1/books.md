@@ -8,7 +8,7 @@ Number of lists: 130, number of recommendations: 2200.
 "Have you always wanted to learn computer programming but are afraid it'll be too difficult for you? Or perhaps you know other programming languages but are interested in learning the Python language fast?
 
  This book is for you. You no longer have to waste your time and money learning Python from lengthy books, expensive online courses or complicated Python tutorials." [Amazon.com](https://amzn.to/2VFKJcf)
-#### 24. [Deep Learning with Python](https://amzn.to/38jS9V5) by François Chollet (7.9% recommended)
+#### 24. [Deep Learning with Python](https://amzn.to/38jS9V5) by Francois Chollet (7.9% recommended)
 ![](https://www.daolf.com/images/python_book_list/24.png#center)
 
 "This book was written for anyone who wishes to explore deep learning from scratch or broaden their understanding of deep learning. Whether you’re a practicing machine-learning engineer, a software developer, or a college student, you’ll find value in these pages. This book offers a practical, hands-on exploration of deep learning. It avoids mathematical notation, preferring instead to explain quantitative concepts via code snippets and to build practical intuition about the core ideas of machine learning and deep learning. 

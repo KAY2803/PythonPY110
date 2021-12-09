@@ -1,18 +1,14 @@
 def output_type_list(fn):
     def wrapper(*args, **kwargs):
-
         result = fn(*args, **kwargs)
         if not isinstance(result, list):
             raise TypeError(f"Результатом выполнения функции {fn} должен быть список")
         return result
-
     return wrapper
 
-
 @output_type_list
-def return_list() -> list:
-    return []
-
+def return_list(*args) -> list:
+    return [args]
 
 @output_type_list
 def return_tuple() -> str:
@@ -20,6 +16,6 @@ def return_tuple() -> str:
 
 
 if __name__ == "__main__":
-    return_list()
+    print(return_list(1, 2, 3))
     return_tuple()
 

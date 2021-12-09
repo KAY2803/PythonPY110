@@ -9,7 +9,7 @@ def task():
 
 
 if __name__ == "__main__":
-   # task()
+    task()
 
     # Другой вариант
     def pairwise_1(it):
