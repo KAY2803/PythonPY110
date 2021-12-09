@@ -65,14 +65,13 @@ if __name__ == '__main__':
     # переводим значение ключа 'recommended' из str в int для последующей сортировки по данному значению
     def book_list_int():
         book_list_int = task()
-        while True:
-            for book in book_list_int:
-                for key, value in book.items():
-                    if key == 'recommended':
-                        value = float(value.rstrip('%'))
-                        book['recommended'] = value
-                continue
-            return book_list_int
+        for book in book_list_int:
+            for key, value in book.items():
+                if key == 'recommended':
+                    value = float(value.rstrip('%'))
+                    book['recommended'] = value
+            continue
+        return book_list_int
 
 
     # сортируем словари по значению ключа 'recommended' и кодируем в json файл
