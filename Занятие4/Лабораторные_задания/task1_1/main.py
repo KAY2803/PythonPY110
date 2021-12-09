@@ -2,8 +2,10 @@ import json
 import re
 from operator import itemgetter
 
-# создаем регулярные выражения и присваиваем их переменным
+
 BOOKS_FILE = "books.md"
+
+# создаем регулярные выражения и присваиваем их переменным
 POSITION = r'#{4}\s?(?P<position>\b\d{1,2}\b)'
 NAME = r'(?P<book>\[(.+)?(Python)(.+)?\])'
 BOOK_URL = r'(?P<book_url>http[s]?:\/\/amzn.to\/\d\w{6})'
@@ -70,7 +72,6 @@ if __name__ == '__main__':
                 if key == 'recommended':
                     value = float(value.rstrip('%'))
                     book['recommended'] = value
-            continue
         return book_list_int
 
 

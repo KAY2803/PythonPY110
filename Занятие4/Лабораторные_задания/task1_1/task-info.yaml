@@ -509,7 +509,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 1743
+  - offset: 1745
     length: 0
     placeholder_text: '...  # TODO записать ругулярное выражения для поиска книги'
     initial_state:
